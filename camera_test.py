@@ -8,7 +8,7 @@ vid = cv2.VideoCapture(camera_url)
 print(vid.get(3), vid.get(4))
 
 
-while(True):
+while(T
     ret, frame = vid.read()
     cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
     cv2.imshow('frame', frame)
